@@ -108,3 +108,9 @@ WHERE m.match_result = 'completed'
   AND v.home_team IN (m.team1, m.team2)
 GROUP BY v.home_team
 ORDER BY home_wins DESC, v.home_team;
+
+## Sample results
+
+![Q8: sixes in wins vs losses](Q8.png)
+
+![Q9: top 3 batters per team](Q9.png)
